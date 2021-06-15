@@ -1,0 +1,31 @@
+{
+  "name": "node-rtmp-sever",
+  "version": "1.0.0",
+  "description": "A simple RTMP server for restreaming live RTMP feeds as HLS/DASH for browser consumption.",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "author": "Joe Flanagan",
+  "license": "ISC",
+  "dependencies": {
+    "node-media-server": "^2.2.4"
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/joeBwanKenobi/node-rtmp-server.git"
+  },
+  "keywords": [
+    "node",
+    "rtmp",
+    "hls",
+    "dash",
+    "stream"
+  ],
+  "bugs": {
+    "url": "https://github.com/joeBwanKenobi/node-rtmp-server/issues"
+  },
+  "homepage": "https://github.com/joeBwanKenobi/node-rtmp-server#readme"
+}
